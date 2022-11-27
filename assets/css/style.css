@@ -11,6 +11,17 @@ h2 {
     color: darkred;
 }
 
+ul{
+    list-style-position: inside;
+}
+
+.location li{
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: center;
+    list-style: none;
+}
+
 h3, 
 p,
 li {
@@ -33,6 +44,7 @@ nav {
 }
 
 nav ul {
+    list-style-position: inside;
     list-style-type: none;
     text-align: center;
 }
@@ -53,13 +65,13 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: auto;
     height: auto;
 }
 
